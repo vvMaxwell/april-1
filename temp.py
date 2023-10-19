@@ -1,3 +1,10 @@
-#program to convert celcius to fehrenheit
-f = 25 * 9/5 + 32
-print(f"25 degrees is {f} Fahrenheit")
+'''
+    Program to convert C to F
+'''
+def celcius_to_fahrenheit(c):
+    '''convers celcius to fahrenheit'''
+    f = c * 9/5 + 32
+    return f
+c = 25
+f = celcius_to_fahrenheit(c)
+print(f"{c} degrees is {f} fahrenheit")
